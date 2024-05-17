@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="land2.css">
+    <script src="land2.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Cosmic Explorer</h1>
+        <p>Discover the Wonders of the Universe</p>
+    </header>
+
+    <nav>
+        <a onclick="scrollToSection('news')">Latest News</a>
+        <a onclick="scrollToSection('gallery')">Stunning Imagery</a>
+        <a onclick="scrollToSection('resources')">Educational Resources</a>
+        <a onclick="scrollToSection('events')">Upcoming Events</a>
+        <a onclick="scrollToSection('contact')">Contact Us</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="news" class="section">
+            <h2>Latest News</h2>
+            <p>Stay updated with the most recent developments in space exploration and research. Our dedicated team of
+                astronomers and space enthusiasts curates the latest news to keep you informed about what's happening in
+                the universe.</p>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Stunning Imagery</h2>
+            <p>Marvel at breathtaking images from telescopes and space missions. Our gallery features high-resolution
+                photos of planets, stars, galaxies, and other celestial phenomena that will leave you in awe.</p>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Educational Resources</h2>
+            <p>Whether you're a student, teacher, or simply a curious mind, our educational resources are designed to
+                expand your knowledge of space. Access articles, videos, and interactive content that make learning
+                about the universe fun and engaging.</p>
+        </section>
+
+        <section id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <p>Join our events and connect with fellow space enthusiasts from around the globe. Check out our stargazing
+                nights, astronomy workshops, and live streams of space missions.</p>
+            <a href="#" class="btn">View All Events</a>
+        </section>
+
+        <section id="subscribe" class="section">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Never miss an update! Subscribe to our newsletter for the latest news, events, and special content
+                delivered straight to your inbox.</p>
+            <form id="subscribe-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn">Subscribe Now</button>
+                <p id="error-message" class="error"></p>
+            </form>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Have questions or need more information? Feel free to reach out to us. We're here to help you explore the
+                cosmos.</p>
+            <p>Email: info@cosmicexplorer.com<br>Phone: (123) 456-7890</p>
+            <a href="#" class="btn">Contact Form</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Follow Us</p>
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+        <p>© 2024 Cosmic Explorer by Girish. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms
+                of Service</a></p>
+    </footer>
+
+
+</body>
+
+</html>
